@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "wadman",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,7 +10,6 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/content": "3.6.3",
     "@nuxt/image": "1.11.0",
     "@nuxt/ui": "3.3.0",
     "nuxt": "^4.0.1",
