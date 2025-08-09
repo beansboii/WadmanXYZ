@@ -8,13 +8,7 @@
     <p>Test</p>
   </div>
 
-  <div class="topnav">
-    <a href="/about">About Me</a>
-    <a href="/portfolio">Portfolio</a>
-    <a href="/projects">Projects</a>
-    <a href="/nonsense">Nonsense</a>
-    <a href="/contact">Contact Me</a>
-  </div>
+  <Navbar/>
 
   <div class="row">
     <div class="column">
