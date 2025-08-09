@@ -3,18 +3,14 @@
 </script>
 
 <template>
+
   <div class="header">
     <a href="/"><h1>Shea Wadman</h1></a>
-    <p>Test</p>
+    <h2>About Me</h2>
   </div>
 
-  <div class="topnav">
-    <a href="/about">About Me</a>
-    <a href="/portfolio">Portfolio</a>
-    <a href="/projects">Projects</a>
-    <a href="/nonsense">Nonsense</a>
-    <a href="/contact">Contact Me</a>
-  </div>
+  <Navbar/>
+
 
   <div class="row">
     <div class="column">
@@ -57,20 +53,7 @@ body {
 }
 
 /* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
 
 /* Create three equal columns that floats next to each other */
 .column {
